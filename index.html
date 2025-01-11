@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Bon App Research</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            max-width: 100vw;
+            overflow-x: hidden;
+        }
+        pre {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+            color: #d4d4d4;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            margin: 0;
+            width: calc(100% - 40px);
+            box-sizing: border-box;
+        }
+        code {
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .json-line {
+            display: inline-block;
+            text-indent: -4ch;
+            padding-left: 8ch;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .json-line-nested {
+            display: inline-block;
+            text-indent: -4ch;
+            padding-left: 12ch;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .json-key {
+            color: #9cdcfe;
+        }
+        .json-string {
+            color: #ce9178;
+        }
+        .json-number {
+            color: #b5cea8;
+        }
+        .json-bracket {
+            color: #d4d4d4;
+        }
+        .contact-links a {
+            color: #ce9178;
+            text-decoration: none;
+            border-bottom: 1px dashed #ce9178;
+            transition: all 0.2s ease;
+            padding: 0 2px;
+        }
+        .contact-links a:hover {
+            text-decoration: none;
+            background-color: rgba(206, 145, 120, 0.1);
+            border-bottom: 1px solid #ce9178;
+        }
+        .contact-links a::after {
+            content: ' ↗';
+            font-size: 0.8em;
+            opacity: 0.7;
+        }
+        .contact-links a[href^="mailto:"]::after {
+            content: '';
+        }
+        @media screen and (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            pre {
+                padding: 10px;
+                font-size: 14px;
+                width: calc(100% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <pre><code><span class="json-bracket">{</span>
+<span class="json-line"><span class="json-key">"name"</span>: <span class="json-string">"Bon App Research"</span>,</span>
+<span class="json-line"><span class="json-key">"version"</span>: <span class="json-string">"0.1.0"</span>,</span>
+<span class="json-line"><span class="json-key">"description"</span>: <span class="json-string">"Bon App Research (BAR) is an applied research company."</span>,</span>
+<span class="json-line"><span class="json-key">"mission"</span>: <span class="json-string">"Our mission is to accelerate the development of cryptography-enabled applications that benefit all."</span>,</span>
+<span class="json-line"><span class="json-key">"approach"</span>: <span class="json-string">"We conduct and translate deep tech research into production. We build apps for the better and we build apps that people want to use."</span>,</span>
+<span class="json-line"><span class="json-key">"motto"</span>: <span class="json-string">"We build good apps."</span>,</span>
+<span class="json-line"><span class="json-key">"contact"</span>: <span class="json-bracket">{</span></span>
+<span class="json-line-nested"><span class="json-key">"email"</span>: <span class="json-string contact-links"><a href="mailto:gm@bonapp.org">gm@bonapp.org</a></span>,</span>
+<span class="json-line-nested"><span class="json-key">"x"</span>: <span class="json-string contact-links"><a href="https://x.com/bonappresearch" target="_blank">@BonAppResearch</a></span>,</span>
+<span class="json-line-nested"><span class="json-key">"github"</span>: <span class="json-string contact-links"><a href="https://github.com/bonappresearch" target="_blank">@BonAppResearch</a></span>,</span>
+<span class="json-line-nested"><span class="json-key">"linkedin"</span>: <span class="json-string contact-links"><a href="https://linkedin.com/company/bon-app-research" target="_blank">bon-app-research</a></span></span>
+<span class="json-line"><span class="json-bracket">}</span></span>
+<span class="json-bracket">}</span></code></pre>
+</body>
+</html> 
